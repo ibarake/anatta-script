@@ -1,0 +1,35 @@
+{
+  "name": "anatta-script",
+  "version": "1.0.0",
+  "description": "Shopify script runned locally that takes variants that match a name.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibarake/anatta-script.git"
+  },
+  "keywords": [
+    "Shopify",
+    "Graphql",
+    "Products",
+    "Variants",
+    "Script",
+    "Admin",
+    "API"
+  ],
+  "author": "Issa Barake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibarake/anatta-script/issues"
+  },
+  "homepage": "https://github.com/ibarake/anatta-script#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
